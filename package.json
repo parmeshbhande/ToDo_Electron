@@ -1,0 +1,26 @@
+{
+  "name": "electron-quick-start",
+  "productName": "ToDo Electron",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-linux" : "electron-packager . --overwrite --platform=linux --arch=x64 --icon=todo.png --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-builder": "^19.27.2",
+    "electron-packager": "^9.0.0"
+  }
+}
